@@ -42,3 +42,20 @@ a {
 .clear {
     clear: both;
 }
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.oszlop3 {
+    margin: 5px;
+}
+
+.oszlop3 img {
+    float: left;
+    width: 450px;
+    margin: 20px;
+    cursor: pointer;
+}
