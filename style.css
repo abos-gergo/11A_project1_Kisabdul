@@ -42,3 +42,42 @@ a {
 .clear {
     clear: both;
 }
+/* uzletek */
+.uzletkartya {
+    height: 550px;
+    width: 450px;
+    position: relative;
+    left: 75px;
+    background-color: rgb(156, 87, 47);
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.uzletkep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
+.uzletbox{
+    padding: 30px 30px 0px 30px;
+}
+
+.cimsor {
+    color: white;
+    font-size: 30px;
+}
+
+.uzletalcim {
+    color: white;
+    font-size: 20px;
+}
+
+.uzletszoveg{
+    color: white;
+    text-align: justify;
+}
