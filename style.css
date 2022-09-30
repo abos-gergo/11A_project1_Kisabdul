@@ -1,7 +1,7 @@
 body{
     background-color: #403121;
 }
-a {
+.ideiglenes {
     color: white;
     font-size: 40px;
     text-decoration: none;
@@ -52,6 +52,8 @@ a {
     overflow: hidden;
     border: 2px solid white;
     border-radius: 10px;
+    float: left;
+    margin-left: 100px;
 }
 
 .uzletkep {
@@ -80,4 +82,46 @@ a {
 .uzletszoveg{
     color: white;
     text-align: justify;
+}
+
+.uzletgomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+}
+.gombtext{
+    padding-top: 5px;
+}
+
+.uzletgomb :hover {
+    text-decoration: underline;
+}
+
+#cbakep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    
+}
+
+#cbagomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+#cbagomb :hover {
+    text-decoration: underline;
 }
