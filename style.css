@@ -21,7 +21,7 @@ body{
 }
 #navbar {
     margin-top: 10px;
-    min-height: 200px;
+    min-height: 180px; /*szolgaltatasok.html : Képek nem férnek bele az oldalba. 200px -> 180px*/
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -173,6 +173,63 @@ body{
 .clear {
     clear: both;
 }
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.bottomwrapper {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: 29px;
+    float: left;
+}
+
+.container img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.overlay {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.container:hover .overlay{
+    opacity: 1;
+}
+
+.container:hover img{
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+.overlay a {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+    }
 /* uzletek */
 .uzletkartya {
     height: 550px;
