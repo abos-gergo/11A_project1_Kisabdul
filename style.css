@@ -1,13 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: #403121;
+    margin: 0;
 }
-a {
+.ideiglenes {
     color: white;
     font-size: 40px;
     text-decoration: none;
 }
 
-#header img {
+#logo {
     position: relative;
     transform: translateX(-50%);
     left: 50%;
@@ -35,10 +39,137 @@ a {
     color: #df760b;
     transition: 0.4s ease;
 }
-
 #welcome {
+    position: relative;
+    top: 20px;
     text-align: center;
+    background-image: url("img/index/index.jpg");
+    background-position-y: -150px;
+    height: 615px;
+    background-repeat: None;
+    background-size: cover;
 }
+#filler {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+#welcome p{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    color: #403121;
+
+}
+#welcome-text:hover p {
+    font-size: 42px;
+    color: #df760b;
+    transition: 0.4s ease;
+}
+#welcome-text:hover .small-text {
+    font-size: 21px;
+    color: #df760b;
+    transition: 0.4s ease;
+}
+.small-text {
+    font-size: 20px;
+}
+
+#family-tree {
+    height: 1000px;
+    background-color: white;
+}
+#bottom-anchor {
+    position: relative;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.csaladkartya {
+    height: 550px;
+    width: 450px;
+    position: relative;
+    top: 100px;
+    left: 75px;
+    background-color: rgb(156, 87, 47);
+    overflow: hidden;
+    border: 3px solid #403121;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+}
+
+.csaladkep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    border: 2px solid #403121;
+    border-radius: 10px;
+}
+
+.uzletbox{
+    padding: 30px 30px 0px 30px;
+}
+
+.cimsor {
+    color: white;
+    font-size: 30px;
+}
+
+.uzletalcim {
+    color: white;
+    font-size: 20px;
+}
+
+.uzletszoveg{
+    color: white;
+    text-align: justify;
+}
+
+.uzletgomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+}
+.gombtext{
+    padding-top: 5px;
+}
+
+.uzletgomb :hover {
+    text-decoration: underline;
+}
+
+#cbakep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    
+}
+
+#cbagomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+#cbagomb :hover {
+    text-decoration: underline;
+}
+
 .clear {
     clear: both;
 }
@@ -98,4 +229,87 @@ a {
     opacity: 1;
     font-weight: bold;
     cursor: pointer;
+    }
+/* uzletek */
+.uzletkartya {
+    height: 550px;
+    width: 450px;
+    position: relative;
+    left: 75px;
+    background-color: rgb(156, 87, 47);
+    overflow: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+    float: left;
+    margin-left: 100px;
+}
+
+.uzletkep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+}
+
+.uzletbox{
+    padding: 30px 30px 0px 30px;
+}
+
+.cimsor {
+    color: white;
+    font-size: 30px;
+}
+
+.uzletalcim {
+    color: white;
+    font-size: 20px;
+}
+
+.uzletszoveg{
+    color: white;
+    text-align: justify;
+}
+
+.uzletgomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+}
+.gombtext{
+    padding-top: 5px;
+}
+
+.uzletgomb :hover {
+    text-decoration: underline;
+}
+
+#cbakep {
+    position: relative;
+    top: 20px;
+    left: 125px;
+    width: 200px;
+    
+}
+
+#cbagomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 80px;
+}
+
+#cbagomb :hover {
+    text-decoration: underline;
 }
