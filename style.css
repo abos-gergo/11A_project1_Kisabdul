@@ -5,11 +5,6 @@ body{
     background-color: #403121;
     margin: 0;
 }
-.ideiglenes {
-    color: white;
-    font-size: 40px;
-    text-decoration: none;
-}
 
 #logo {
     position: relative;
@@ -26,64 +21,65 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
 .menu {
-    padding: 50px 100px 20px 100px;
+    padding: 50px 100px 20px;
     float: left;
 }
-
 .menu a {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
     transition: 0.4s ease;
 }
 .menu a:hover {
-    font-size: 42px;
     color: #df760b;
+    font-size: 42px;
     transition: 0.4s ease;
 }
+
 #welcome {
     position: relative;
     top: 20px;
     text-align: center;
     background-image: url("img/index/index.jpg");
-    background-position-y: -150px;
-    height: 615px;
+    background-position-y: -200px;
+    height: 635px;
     background-repeat: None;
     background-size: cover;
 }
-#filler {
-    position: absolute;
-    width: 100%;
-    left: 0;
+#welcome-text a {
+    text-decoration: none;
+    
 }
-#welcome p{
+#welcome-text p{
     position: relative;
     top: 20px;
     margin: 0;
     color: #403121;
-
+    transition: 0.4s ease;
 }
-#welcome-text:hover p {
+.welcome-large-text {
+    font-size: 40px;
+    text-decoration: none;
+}
+.welcome-small-text {
+    font-size: 20px;
+}
+#welcome-text:hover .welcome-large-text {
     font-size: 42px;
     color: #df760b;
     transition: 0.4s ease;
 }
-#welcome-text:hover .small-text {
+#welcome-text:hover .welcome-small-text {
     font-size: 21px;
     color: #df760b;
     transition: 0.4s ease;
-}
-.small-text {
-    font-size: 20px;
 }
 
 #family-tree {
     height: 1000px;
     background-color: white;
-}
-#bottom-anchor {
-    position: relative;
-    top: 0;
-    height: 100px;
-    width: 100%;
 }
 
 .csaladkartya {
