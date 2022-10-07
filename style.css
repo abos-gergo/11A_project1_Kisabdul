@@ -16,7 +16,7 @@ body{
 }
 #navbar {
     margin-top: 10px;
-    min-height: 180px; /*szolgaltatasok.html : Képek nem férnek bele az oldalba. 200px -> 180px*/
+    min-height: 180px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +38,40 @@ body{
     transition: 0.4s ease;
 }
 
+/*Kártyák*/
+.kartyabox{
+    padding: 30px 30px 0px 30px;
+}
+
+.kartyacimsor {
+    color: white;
+    font-size: 30px;
+}
+.kartyaalcim {
+    color: white;
+    font-size: 20px;
+}
+
+.kartyaszoveg{
+    color: white;
+    text-align: justify;
+}
+
+.kartyagomb {
+    height: 50px;
+    width: 250px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 75px;
+}
+.kartyagomb:hover {
+    text-decoration: underline;
+}
+
+/* Index.html*/
 #welcome {
     position: relative;
     top: 20px;
@@ -105,71 +139,7 @@ body{
     border-radius: 10px;
 }
 
-.uzletbox{
-    padding: 30px 30px 0px 30px;
-}
-
-.cimsor {
-    color: white;
-    font-size: 30px;
-}
-
-.uzletalcim {
-    color: white;
-    font-size: 20px;
-}
-
-.uzletszoveg{
-    color: white;
-    text-align: justify;
-}
-
-.uzletgomb {
-    height: 50px;
-    width: 250px;
-    background-color: brown;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 75px;
-}
-.gombtext{
-    padding-top: 5px;
-}
-
-.uzletgomb :hover {
-    text-decoration: underline;
-}
-
-#cbakep {
-    position: relative;
-    top: 20px;
-    left: 125px;
-    width: 200px;
-    
-}
-
-#cbagomb {
-    height: 50px;
-    width: 250px;
-    background-color: brown;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 75px;
-    margin-top: 80px;
-}
-
-#cbagomb :hover {
-    text-decoration: underline;
-}
-
-.clear {
-    clear: both;
-}
-
+/*Szolgáltatások*/
 .wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -250,63 +220,10 @@ body{
     border-radius: 10px;
 }
 
-.uzletbox{
-    padding: 30px 30px 0px 30px;
-}
-
-.cimsor {
-    color: white;
-    font-size: 30px;
-}
-
-.uzletalcim {
-    color: white;
-    font-size: 20px;
-}
-
-.uzletszoveg{
-    color: white;
-    text-align: justify;
-}
-
-.uzletgomb {
-    height: 50px;
-    width: 250px;
-    background-color: brown;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 75px;
-}
 .gombtext{
     padding-top: 5px;
 }
 
-.uzletgomb :hover {
-    text-decoration: underline;
-}
-
-#cbakep {
-    position: relative;
-    top: 20px;
-    left: 125px;
-    width: 200px;
-    
-}
-
-#cbagomb {
-    height: 50px;
-    width: 250px;
-    background-color: brown;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 75px;
-    margin-top: 80px;
-}
-
-#cbagomb :hover {
-    text-decoration: underline;
+.clear {
+    clear: both;
 }
